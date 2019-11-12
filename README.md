@@ -1,13 +1,14 @@
-#### This is TFJob java api for kubeflow v1alpha2. 
+## This is TFJob java api for kubeflow v1alpha2. 
 It can be used with java api of kubernetes 1.9-1.12
 
 [Kubernetes Java Api](https://github.com/kubernetes-client/java)
 
-#### Instructions for use
+### Instructions for use
 1. You need install java client for kubernetes first
 2. Copy this code to your project
 3. Now you can use TFJob Api in your kubernetes java client class;
 
+#### Example
 ```java
 import io.kubernetes.client.ApiClient;
 import io.kubernetes.client.ApiException;
