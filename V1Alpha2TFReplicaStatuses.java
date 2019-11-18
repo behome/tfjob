@@ -31,7 +31,7 @@ public class V1Alpha2TFReplicaStatuses {
         this.master = master;
     }
 
-    public V1Alpha2TFReplicaStatuses woker(V1Alpha2TFReplicaStatusesItem worker){
+    public V1Alpha2TFReplicaStatuses worker(V1Alpha2TFReplicaStatusesItem worker){
         this.worker = worker;
         return this;
     }
@@ -41,7 +41,7 @@ public class V1Alpha2TFReplicaStatuses {
         return worker;
     }
 
-    public void setWoker(V1Alpha2TFReplicaStatusesItem worker) {
+    public void setWorker(V1Alpha2TFReplicaStatusesItem worker) {
         this.worker = worker;
     }
 
